@@ -21,7 +21,7 @@ const CONFIG = {
     linkedin: "https://www.linkedin.com/in/sourasish-ghosh-b8ba36281",
     twitter:  "",
     website:  "",
-  },
+  }, 
 
   /* ── About ────────────────────────────────────────────── */
   about: `I'm a data scientist and ML engineer with a background in Atmospheric Science and Data Science. I specialize in building end-to-end ML systems — from data pipelines and model training to deployment and real-time inference.
