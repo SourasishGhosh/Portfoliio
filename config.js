@@ -10,10 +10,10 @@ const CONFIG = {
   name:       "Sourasish Ghosh",
   role:       "ML & Data Science Engineer",
   tagline:    "BS in Data Science · M.Sc. in Atmospheric Science · Building end-to-end ML systems and real-time data pipelines.",
-  avatar:     "assets/photo.jpg",   // → put your photo here (see instructions)
+  avatar:     "https://drive.google.com/file/d/1vzNtl5PcNDKUcEiC-QymcIlE9c1qzq7N/view?usp=sharing",   // → put your photo here (see instructions)
   email:      "sourasishghosh02@gmail.com",
   location:   "Kolkata, India",
-  resumeUrl:  "assets/resume.pdf",  // → put your resume PDF here (see instructions)
+  resumeUrl:  "https://drive.google.com/file/d/1CPbPF-9HpRifoudqnYmJnK0QGSQkDYsk/view?usp=sharing",  // → put your resume PDF here (see instructions)
 
   /* ── Social Links ─────────────────────────────────────── */
   social: {
