@@ -13,7 +13,7 @@ const CONFIG = {
   avatar:     "assets/CV_photo.jpg",   // put your photo in assets/photo.jpg
   email:      "sourasishghosh02@gmail.com",
   location:   "West Bengal, India",
-  resumeUrl:  "assets/Sourasish_Ghosh_resume_02.pdf",  // put your resume PDF in assets/resume.pdf
+  resumeUrl:  "https://drive.google.com/file/d/1-xpSuogYzhW94nNmVwzSqP0YdeOyMf_Q/view?usp=sharing",  // put your resume PDF in assets/resume.pdf
 
   /* ── Social Links ─────────────────────────────────────── */
   social: {
