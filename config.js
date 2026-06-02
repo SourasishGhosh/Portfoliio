@@ -8,9 +8,9 @@ const CONFIG = {
 
   /* ── Personal ─────────────────────────────────────────── */
   name:       "Sourasish Ghosh",
-  role:       "ML Engineer · Data Scientist",
+  role:       "AI Engineer · ML Engineer · Data Scientist",
   tagline:    "BS in Data Science · M.Sc. in Atmospheric Science · Building end-to-end ML systems, RAG pipelines, and real-time data infrastructure.",
-  avatar:     "assets/photo.jpg",   // put your photo in assets/photo.jpg
+  avatar:     "assets/CV_photo.jpg",   // put your photo in assets/photo.jpg
   email:      "sourasishghosh02@gmail.com",
   location:   "West Bengal, India",
   resumeUrl:  "assets/Sourasish_Ghosh_resume_02.pdf",  // put your resume PDF in assets/resume.pdf
@@ -84,30 +84,37 @@ Previously interned at Spaceborn building computer vision and state-estimation p
       name:        "E-Commerce Multimodal RAG System",
       description: "Multimodal RAG system with semantic search using Qdrant VectorDB. Integrated text and image embeddings via OpenCLIP and Gemini 2.5 Flash API. Backend built with FastAPI and Pydantic, with SlowAPI rate-limiting.",
       tech:        ["RAG", "Qdrant", "OpenCLIP", "Gemini API", "FastAPI"],
-      github:      "",   // add your GitHub link
+      github:      "https://github.com/SourasishGhosh/E-Commerce-Multimodal-RAG-System",   // add your GitHub link
       live:        "",
     },
     {
       name:        "Python-based Finance Backend System",
       description: "High-performance financial backend with FastAPI, SQLAlchemy, and PostgreSQL. Implements Role-Based Access Control (Admin, Analyst, Viewer) and Pydantic for end-to-end type safety.",
       tech:        ["FastAPI", "SQLAlchemy", "PostgreSQL", "Pydantic", "RBAC"],
-      github:      "",   // add your GitHub link
+      github:      "https://github.com/SourasishGhosh/Python-based_Finance_Backend_System",   // add your GitHub link
       live:        "",
     },
     {
       name:        "Coughometer – DNN Cough Classifier",
       description: "End-to-end cough classification app with a DNN model and FastAPI backend. Containerized with Docker and deployed on Render. Trained on the Coswara dataset.",
       tech:        ["DNN", "FastAPI", "Docker", "Render", "Librosa"],
-      github:      "",   // add your GitHub link
+      github:      "https://github.com/SourasishGhosh/Python-based_Finance_Backend_System",   // add your GitHub link
       live:        "",
     },
     {
       name:        "Hybrid Fuzzy–Random Forest: Severe Weather Prediction",
       description: "M.Sc. thesis. Hybrid model integrating Fuzzy Logic and Random Forest for severe weather prediction, achieving 88.6% accuracy on 24 years of Kolkata weather data.",
       tech:        ["Random Forest", "Fuzzy Logic", "Python", "Scikit-learn"],
-      github:      "",   // add your GitHub link
+      github:      "https://github.com/SourasishGhosh/M.Sc-Dissertation-",   // add your GitHub link
       live:        "",
     },
+    {
+      name:        "End-to-End QLoRA and RSLoRA LLM Fine-Tuning Pipeline on Unsloth",
+      description: "An end-to-end guide and pipeline for fine-tuning LLMs using Unsloth, QLoRA, and Rank-Stabilised LoRA (RSLoRA). The project processes unstructured document resources into instruction-tuned synthetic conversational datasets, runs comparative configuration experiments across separate PEFT architectures, tracks performance scalars using TensorBoard metrics, and provides a stable runtime generation engine.",
+      tech:        ["NVIDIA CUDA Toolkit", "PyTorch", "Python", "Unsloth","Gemma 2-2b","Gemini API","Hugging Face Transformers"],
+      github:      "https://github.com/SourasishGhosh/End-to-End-QLoRA-and-RSLoRA-LLM-Fine-Tuning-Pipeline-on-Unsloth",   // add your GitHub link
+      live:        "", 
+    }
   ],
 
   /* ── Education ────────────────────────────────────────── */
