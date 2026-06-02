@@ -8,12 +8,12 @@ const CONFIG = {
 
   /* ── Personal ─────────────────────────────────────────── */
   name:       "Sourasish Ghosh",
-  role:       "ML & Data Science Engineer",
-  tagline:    "BS in Data Science · M.Sc. in Atmospheric Science · Building end-to-end ML systems and real-time data pipelines.",
-  avatar:     "assests/CV_photo.jpg",   // → put your photo here (see instructions)
+  role:       "ML Engineer · Data Scientist",
+  tagline:    "BS in Data Science · M.Sc. in Atmospheric Science · Building end-to-end ML systems, RAG pipelines, and real-time data infrastructure.",
+  avatar:     "assets/photo.jpg",   // put your photo in assets/photo.jpg
   email:      "sourasishghosh02@gmail.com",
-  location:   "Kolkata, India",
-  resumeUrl:  "assests/Sourasish_CV.pdf",  // → put your resume PDF here (see instructions)
+  location:   "West Bengal, India",
+  resumeUrl:  "assets/resume.pdf",  // put your resume PDF in assets/resume.pdf
 
   /* ── Social Links ─────────────────────────────────────── */
   social: {
@@ -21,40 +21,40 @@ const CONFIG = {
     linkedin: "https://www.linkedin.com/in/sourasish-ghosh-b8ba36281",
     twitter:  "",
     website:  "",
-  }, 
+  },
 
   /* ── About ────────────────────────────────────────────── */
-  about: `I'm a data scientist and ML engineer with a background in Atmospheric Science and Data Science. I specialize in building end-to-end ML systems — from data pipelines and model training to deployment and real-time inference.
+  about: `I'm an ML engineer and data scientist with a background in Atmospheric Science and Data Science. I specialize in building end-to-end ML systems — from real-time data pipelines and model training to RAG systems and cloud deployment.
 
-My work spans anomaly detection on flight telemetry, autonomous UAV navigation stacks, cough classification with DNNs, and hybrid Fuzzy–Random Forest models for weather prediction. I enjoy working at the intersection of scientific computing, backend systems, and applied machine learning.
+My work spans anomaly detection on drone telemetry, multimodal RAG with vector databases, cough classification with DNNs, and hybrid Fuzzy–Random Forest models for weather prediction. I enjoy working at the intersection of applied ML, backend systems, and MLOps.
 
-Currently working as an ML & Systems Engineer at Spaceborn, building real-time ROS 2 systems for autonomous UAVs.`,
+Previously interned at Spaceborn building computer vision and state-estimation pipelines for autonomous drones, and at Excelerate as a Project Lead for candidate hiring analytics.`,
 
   /* ── Skills ───────────────────────────────────────────── */
   skills: [
     {
       category: "Languages",
-      items: ["Python", "SQL", "Fortran", "LaTeX"],
+      items: ["Python", "SQL", "Java", "Bash", "Fortran", "LaTeX"],
     },
     {
-      category: "ML / DL",
-      items: ["Scikit-learn", "TensorFlow", "PyTorch", "TabNet", "Librosa"],
+      category: "ML & AI",
+      items: ["PyTorch", "TensorFlow", "Scikit-learn", "OpenCLIP", "LangChain", "LangGraph", "RAG", "NLP", "spaCy", "MobileNetV2 ONNX", "TensorRT", "AWS Bedrock"],
     },
     {
-      category: "Data & Backend",
-      items: ["FastAPI", "PostgreSQL", "PySpark", "SQLAlchemy", "Pydantic"],
+      category: "LLM APIs",
+      items: ["Claude API", "Gemini API", "OpenAI API", "Agent Flows", "Model Guardrails"],
     },
     {
-      category: "Infra & Tools",
-      items: ["Docker", "Apache Kafka", "Redis", "ROS 2", "MAVROS"],
+      category: "Data & Databases",
+      items: ["Qdrant", "ChromaDB", "PostgreSQL", "Redis", "Apache Kafka", "BigQuery", "PySpark", "Pandas", "NumPy"],
     },
     {
-      category: "Cloud & DB",
-      items: ["GCP", "Azure (AZ-900)", "BigQuery", "Cloud Functions", "Render"],
+      category: "Cloud, DevOps & MLOps",
+      items: ["Azure", "GCP", "AWS", "Docker", "Kubernetes", "MLflow", "Terraform", "GitHub Actions", "CI/CD", "Vercel", "Render"],
     },
     {
-      category: "Environments",
-      items: ["Linux/Unix", "Git", "GitHub", "VS Code", "QGIS"],
+      category: "Frameworks & Tools",
+      items: ["FastAPI", "Flask", "Uvicorn", "pytest", "Grafana", "Prometheus", "PowerBI", "A/B Testing"],
     },
   ],
 
@@ -62,58 +62,50 @@ Currently working as an ML & Systems Engineer at Spaceborn, building real-time R
   experience: [
     {
       company:    "Spaceborn",
-      role:       "ML and System Engineer",
-      period:     "Feb 2026 – Present",
+      role:       "Machine Learning & Data Engineer (Intern)",
+      period:     "Feb 2026 – Apr 2026",
       location:   "Remote",
-      description: "Architected a real-time ROS 2 obstacle avoidance stack with an APF local planner, UKF object tracking, and YOLO-based perception running at 50Hz. Built an anomaly detection engine for flight telemetry using Isolation Forest, and a bi-directional Kafka + Redis telemetry bridge to a FastAPI backend with Avro serialization. Fused multi-modal sensor data (TF-Luna LIDAR, HC-SR04 sonar) via a dedicated ESP32 co-processor.",
-      tech: ["ROS 2", "YOLO", "Isolation Forest", "Apache Kafka", "Redis", "FastAPI", "MAVROS"],
+      description: "Engineered a real-time computer vision and state-estimation pipeline for Drone OS, integrating YOLOv8n and MobileNetV2 ONNX with Unscented Kalman Filters to fuse multi-modal sensor data (LIDAR, Ultrasonic, RPi Cam) for predictive tracking. Deployed an unsupervised anomaly detection engine using Isolation Forest on high-frequency time-series telemetry. Architected a low-latency Kafka + Redis streaming pipeline with Avro serialization to power downstream ML models.",
+      tech: ["YOLOv8n", "MobileNetV2 ONNX", "UKF", "Isolation Forest", "Apache Kafka", "Redis", "FastAPI"],
     },
     {
       company:    "Excelerate",
       role:       "Data Analyst Intern",
       period:     "Dec 2025 – Jan 2026",
       location:   "Remote",
-      description: "Acted as Project Lead for analysis of candidate hiring datasets across ~200 countries. Uncovered key findings in yield management, geographic dominance, and operational efficiency. Delivered KPI frameworks with future business recommendations using Python, Excel, and BI tools.",
-      tech: ["Python", "Excel", "BI Tools", "KPI Design"],
-    },
-    {
-      company:    "IIT Madras (Online)",
-      role:       "Workshop: Introduction to Cloud using GCP",
-      period:     "May 2025",
-      location:   "Online",
-      description: "Worked with Compute Engine, BigQuery, Cloud Storage, Cloud Functions, and Pub/Sub. Built a dashboard system for real-time cloud-based data streams.",
-      tech: ["GCP", "BigQuery", "Pub/Sub", "Cloud Functions", "Compute Engine"],
+      description: "Led analysis of candidate hiring datasets as Project Lead, covering ~200 countries. Identified key findings in yield management and geographic dominance using Python, Excel, and BI tools.",
+      tech: ["Python", "Excel", "PowerBI", "KPI Design"],
     },
   ],
 
   /* ── Projects ─────────────────────────────────────────── */
   projects: [
     {
+      name:        "E-Commerce Multimodal RAG System",
+      description: "Multimodal RAG system with semantic search using Qdrant VectorDB. Integrated text and image embeddings via OpenCLIP and Gemini 2.5 Flash API. Backend built with FastAPI and Pydantic, with SlowAPI rate-limiting.",
+      tech:        ["RAG", "Qdrant", "OpenCLIP", "Gemini API", "FastAPI"],
+      github:      "",   // add your GitHub link
+      live:        "",
+    },
+    {
       name:        "Python-based Finance Backend System",
-      description: "High-performance financial backend with FastAPI and SQLAlchemy using a strict separation of concerns (Routers, CRUD, Models, Schemas). Features Role-Based Access Control (Admin, Analyst, Viewer), PostgreSQL schema design, and Pydantic validation throughout.",
+      description: "High-performance financial backend with FastAPI, SQLAlchemy, and PostgreSQL. Implements Role-Based Access Control (Admin, Analyst, Viewer) and Pydantic for end-to-end type safety.",
       tech:        ["FastAPI", "SQLAlchemy", "PostgreSQL", "Pydantic", "RBAC"],
-      github:      "",
+      github:      "",   // add your GitHub link
       live:        "",
     },
     {
       name:        "Coughometer – DNN Cough Classifier",
-      description: "End-to-end cough classification app with a DNN model, FastAPI backend, and HTML/JS frontend. Trained on public datasets (Coswara, COUGHVID), packaged with Docker, and deployed on Render.",
+      description: "End-to-end cough classification app with a DNN model and FastAPI backend. Containerized with Docker and deployed on Render. Trained on the Coswara dataset.",
       tech:        ["DNN", "FastAPI", "Docker", "Render", "Librosa"],
-      github:      "",
+      github:      "",   // add your GitHub link
       live:        "",
     },
     {
       name:        "Hybrid Fuzzy–Random Forest: Severe Weather Prediction",
-      description: "M.Sc. thesis project. Developed a hybrid model integrating Fuzzy Logic and Random Forest for severe weather prediction, achieving 88.6% accuracy on 24 years of Kolkata weather data.",
+      description: "M.Sc. thesis. Hybrid model integrating Fuzzy Logic and Random Forest for severe weather prediction, achieving 88.6% accuracy on 24 years of Kolkata weather data.",
       tech:        ["Random Forest", "Fuzzy Logic", "Python", "Scikit-learn"],
-      github:      "",
-      live:        "",
-    },
-    {
-      name:        "BDM: Inventory Optimization for a Local Café",
-      description: "IITM capstone project optimizing inventory and maximizing profit for a local café. Performed SKU-level analysis, demand forecasting, and regression modeling achieving R² ≈ 0.96.",
-      tech:        ["Python", "Regression", "Forecasting", "Business Analytics"],
-      github:      "",
+      github:      "",   // add your GitHub link
       live:        "",
     },
   ],
@@ -121,18 +113,18 @@ Currently working as an ML & Systems Engineer at Spaceborn, building real-time R
   /* ── Education ────────────────────────────────────────── */
   education: [
     {
+      institution: "Indian Institute of Technology, Madras",
+      degree:      "BS in Data Science and Applications (Distance) · CGPA: 7.73",
+      period:      "2023 – 2027",
+    },
+    {
       institution: "University of Calcutta",
       degree:      "M.Sc. in Atmospheric Sciences · CGPA: 8.155",
       period:      "2023 – 2025",
     },
     {
-      institution: "Indian Institute of Technology, Madras",
-      degree:      "BS in Data Science and Applications (Distance) · CGPA: 7.67",
-      period:      "2023 – 2027",
-    },
-    {
-      institution: "Chandernagore College, University of Burdwan",
-      degree:      "B.Sc. Physics (Honours) · CGPA: 7.72",
+      institution: "Chandernagore College, Burdwan University",
+      degree:      "B.Sc. in Physics (Honours) · CGPA: 7.72",
       period:      "2020 – 2023",
     },
   ],
